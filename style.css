@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-image: url(to.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#center {
+  text-align: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.801);
+  margin: 60px 20%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#add {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#myForm {
+  margin: 20px;
+  display: none;
+}
+
+#taskInput {
+  height: 40px;
+  width: 250px;
+  padding: 5px;
+}
+
+#submit {
+  height: 40px;
+  padding: 0 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task div {
+  background-color: #6c757d;
+  color: #fff;
+  border: 1px solid #495057;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.task button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.task .completed {
+  text-decoration: line-through;
+  color: black;
+}
